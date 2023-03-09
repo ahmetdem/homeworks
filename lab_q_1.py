@@ -30,6 +30,7 @@ def main(number):
         hey = str(key).ljust(2)
         print(hey, data[key]*'*')
 
+#to test
 for i in range(2, 5):
     print(f"for {10**i} times: ")
     main(10**i)
