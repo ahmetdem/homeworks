@@ -22,7 +22,7 @@ def main(number):
 
     #to get normalized value
     for key, val in data.items():
-        nv = 1 + ((val - _min) * (14)) / (_max - _min)
+        nv = 1 + ((val - _min) * (12)) / (_max - _min)
         data[key] = int(nv)
 
     #to print the output
